@@ -5,7 +5,7 @@ import mother3 from "../asset/mother3.png";
 import GreenThreads from "./GreenThreads";
 
 const MotherNature = () => {
-  const [firsttintOpen, setFirstTintOpen] = useState(false);
+  const [firsttintOpen, setFirstTintOpen] = useState(true);
   const [secondtintOpen, setSecondintOpen] = useState(false);
   const [thirdtintOpen, setThirdTintOpen] = useState(false);
 
@@ -34,14 +34,16 @@ const MotherNature = () => {
     setThirdTintOpen(false);
   };
   return (
-    <div className="w-full h-full lg:p-20 p-10 flex flex-col flex-wrap">
-      <div className="w-full h-full">
+    <div className="w-full h-full lg:p-20 p-10 flex flex-col flex-wrap ">
+      <div className="w-full h-full ">
         <div className="flex justify-center">
           <h1 className="lg:text-4xl text-2xl font-semibold text-gray-600 text-center">
             Wear the Beauty of Mother Nature
           </h1>
         </div>
-        <div className="flex justify-between gap-5 lg:mt-20 mt-10 flex-wrap md:flex-nowrap h-fit w-full">
+
+        <div className="flex justify-center w-full h-full">
+        <div className="flex justify-between gap-5 lg:mt-20 mt-10 flex-wrap md:flex-nowrap h-full w-full lg:max-w-[1300px] max-w-full">
           <div
             className="drop-shadow-xl h-full lg:w-1/4 w-full md:w-1/2 bg-white  cursor-pointer"
             onMouseEnter={handleFirstMouseHoverEnter}
@@ -52,7 +54,7 @@ const MotherNature = () => {
                 <img
                   src={mother1}
                   alt=""
-                  className="w-full h-full object-cover  "
+                  className="w-full h-full object-cover"
                 />
                 {firsttintOpen ? (
                   <div className="h-full w-full">
@@ -139,7 +141,7 @@ const MotherNature = () => {
           </div>
         </div>
       </div>
-
+      </div>
       <div className="mt-20">
       <GreenThreads/>
       </div>

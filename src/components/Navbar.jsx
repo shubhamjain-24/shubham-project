@@ -16,11 +16,11 @@ const Navbar = () => {
   return (
     <>
     <div className='min-h-32 border-b-4 bg-white justify-center lg:flex items-center hidden md:flex xl:flex'>
-        <div className='lg:max-w-[1300px] md:max-w-[700px]  h-full w-full'>
-<ul className='flex justify-between items-center lg:text-3xl md:text-2xl text-gray-500 font-thin'>
+        <div className='lg:max-w-[900px] md:max-w-[700px]  h-full w-full'>
+<ul className='flex justify-between items-center lg:text-2xl md:text-2xl text-gray-500 font-thin'>
     <li className='cursor-pointer hover:text-gray-800'>Tantu Journey</li>
     <li className='cursor-pointer hover:text-gray-800'>Shop</li>
-    <Link to={'/'} className='w-40 h-full cursor-pointer'>
+    <Link to={'/'} className='w-48 h-full cursor-pointer'>
         <img src={logo} alt="logo" loading='lazy' />
     </Link>
     <li className='cursor-pointer hover:text-gray-800'>Blogs</li>
