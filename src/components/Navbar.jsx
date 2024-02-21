@@ -15,7 +15,7 @@ const Navbar = () => {
     const closeDrawerRight = () => setOpenRight(false);
   return (
     <>
-    <div className='min-h-32 border-b-4 bg-white justify-center lg:flex items-center hidden md:flex xl:flex'>
+    <div className='min-h-32 justify-center lg:flex items-center hidden md:flex xl:flex'>
         <div className='lg:max-w-[900px] md:max-w-[700px]  h-full w-full'>
 <ul className='flex justify-between items-center lg:text-2xl md:text-2xl text-gray-500 font-thin'>
     <li className='cursor-pointer hover:text-gray-800'>Tantu Journey</li>
@@ -29,7 +29,7 @@ const Navbar = () => {
         </div>
     </div>
 
-    <div className='lg:hidden md:hidden xl:hidden flex min-h-16 bg-white justify-between items-center p-5 pt-0 pb-0'>
+    <div className='lg:hidden md:hidden xl:hidden flex min-h-16  justify-between items-center p-5 pt-0 pb-0'>
 <div>
    <Link to='/'><img src={logo} alt="" className='w-28 h-16 object-contain'/></Link> 
 </div>
