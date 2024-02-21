@@ -5,7 +5,7 @@ import mother3 from "../asset/mother3.png";
 import GreenThreads from "./GreenThreads";
 
 const MotherNature = () => {
-  const [firsttintOpen, setFirstTintOpen] = useState(true);
+  const [firsttintOpen, setFirstTintOpen] = useState(false);
   const [secondtintOpen, setSecondintOpen] = useState(false);
   const [thirdtintOpen, setThirdTintOpen] = useState(false);
 
