@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import mother1 from "../asset/mother1.png";
 import mother2 from "../asset/mother2.png";
 import mother3 from "../asset/mother3.png";
+import GreenThreads from "./GreenThreads";
 
 const MotherNature = () => {
   const [firsttintOpen, setFirstTintOpen] = useState(false);
@@ -138,6 +139,11 @@ const MotherNature = () => {
           </div>
         </div>
       </div>
+
+      <div className="mt-20">
+      <GreenThreads/>
+      </div>
+     
     </div>
   );
 };

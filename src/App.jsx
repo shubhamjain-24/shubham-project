@@ -8,7 +8,7 @@ const App = () => {
     <BrowserRouter>
       <Routes>
         <Route element={<Layout />} path="/">
-          <Route element={<MotherNature />} path="/mother-nature" />
+          <Route element={<MotherNature />} path="/" index/>
         </Route>
       </Routes>
     </BrowserRouter>
