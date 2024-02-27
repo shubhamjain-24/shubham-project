@@ -1,0 +1,27 @@
+.button-zoom {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out; /* Add transition for smooth zooming */
+}
+
+.button-zoom:hover {
+    transform: scale(1.1); /* Zoom the button container by 10% on hover */
+}
+
+.arrow-shake {
+    transition: transform 0.5s ease; /* Add transition for smooth shaking */
+}
+
+.arrow-shake:hover {
+    animation: shake 0.5s ease infinite; /* Apply shaking animation to the arrow on hover */
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-3px); }
+    100% { transform: translateX(0); }
+}

@@ -1,6 +1,7 @@
 import React from "react";
 import img from "../asset/thread.png";
 import { FaArrowRightLong } from "react-icons/fa6";
+import './GreenThreads.css'
 
 const GreenThreads = () => {
   return (
@@ -34,9 +35,10 @@ const GreenThreads = () => {
                 </p>
               </div>
               <div className="flex justify-center lg:justify-start">
-                <button className="lg:text-xl text-lg font-thin flex gap-3 items-center justify-center flex-row mt-3">
-                  Read more <FaArrowRightLong className="lg:text-xl text-lg"/>
-                </button>
+                {/* nre */}
+                <button className="lg:text-xl text-lg font-thin flex gap-3 items-center justify-center flex-row mt-3 button-zoom">
+                Read more <FaArrowRightLong className="lg:text-xl text-lg arrow-shake"/>
+              </button>
               </div>
             </div>
           </div>
@@ -62,9 +64,10 @@ const GreenThreads = () => {
                 </p>
               </div>
               <div className="flex justify-center lg:justify-start">
-                <button className="lg:text-xl text-lg font-thin flex gap-3 items-center justify-center flex-row mt-3">
-                  Read more <FaArrowRightLong className="lg:text-xl text-lg"/>
-                </button>
+                {/* nre */}
+                <button className="lg:text-xl text-lg font-thin flex gap-3 items-center justify-center flex-row mt-3 button-zoom">
+                Read more <FaArrowRightLong className="lg:text-xl text-lg arrow-shake"/>
+              </button>
               </div>
             </div>
           </div>

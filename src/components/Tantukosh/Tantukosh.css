@@ -1,0 +1,193 @@
+.tantu_mainContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px;
+    flex-direction: column;
+    
+}
+.tantu_mainHead{
+    font-size: 2.3rem;
+    color: #5C5C5C;
+}
+.tantusub_subContainer{
+/*     
+    height: 600px;
+    width: 100%;
+     */
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    z-index: -2;
+
+}
+.tantu_subdiv1::after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.6); 
+}
+.tantu_subdiv1{
+    position: relative;
+    background-image: url('../../asset/tantukosh.png');
+    flex: 1;
+    padding: 40px;
+    font-size: 1.8rem;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    z-index: -2;
+}
+.tantu_subdiv2{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tantu_subdiv2_box1{
+    content: "";
+    height: 400px;
+    width: 400px;
+    background-color: #E8E3DE;
+    margin-top: -80px;
+    margin-left: 80px;
+    position: relative;
+}
+.tantu_subdiv2_box2{
+    content: "";
+    height: 400px;
+    width: 400px;
+    background-color:#AB957A ;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: -80px;
+}
+.tentu_subdiv2_textdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 40px;
+    margin-top: 30px;
+}
+.tantu_subdiv_text{
+    color: #E8E3DE;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+    z-index: 3;
+}
+.tantu_subdiv_text2{
+    color: #E8E3DE;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 40px;
+}
+@media screen and (max-width: 1200px){
+    .tantu_mainHead{
+        font-size: 2rem;
+    }
+    .tantu_subdiv1{
+        font-size: 1.5rem;
+    }
+    .tantu_subdiv2_box1{
+        height: 350px;
+        width: 350px;
+    }
+    .tantu_subdiv2_box2{
+        height: 350px;
+        width: 350px;
+    }
+    .tantusub_subContainer{
+        padding: 50px;
+    }
+}
+@media screen and (max-width: 1000px){
+    .tantu_subdiv1{
+        font-size: 1.2rem;
+    }
+    .tantusub_subContainer{
+        flex-direction: column;
+    }
+    
+    .tantu_subdiv_text{
+        font-size: 1.6rem;
+    }
+    .tantu_subdiv_text2{
+        font-size: 1.6rem;
+    }
+    .tantu_mainHead{
+        width: 80%;
+        text-align: center;
+    }
+    .tantu_subdiv2{
+        margin-top: 100px;
+    }
+}
+@media screen and (max-width: 800px){
+   
+    .tantu_subdiv2_box1{
+        height: 300px;
+        width: 300px;
+    }
+    .tantu_subdiv2_box2{
+        height: 300px;
+        width: 300px;
+        margin-top: 10px;
+    margin-left: -10px;
+    }
+    .tantu_subdiv_text{
+        font-size: 1.2rem;
+    }
+    .tantu_subdiv_text2{
+        font-size: 1.2rem;
+    }
+    .tentu_subdiv2_textdiv{
+    }
+}
+@media screen and (max-width: 600px){
+    .tantu_subdiv2{
+        margin-top: 100px;
+    }
+    .tantu_subdiv1{
+        width: 100%;
+        margin: 0;
+    }
+    .tantu_mainContainer{
+        padding: 20px 0px;
+    }
+    .tantu_subdiv2_box1{
+        display: none;
+    }
+    .tantu_subdiv2_box2{
+        width: 300px;
+        height: 300px;
+    }
+    .tantu_mainContainer{
+        text-align: center;
+    }
+    .tantusub_subContainer{
+        padding: 0;
+    }
+}
+@media screen and (max-width: 450px){
+    .tantu_subdiv2_box2{
+        width: 250px;
+        height: 250px;
+        margin-top: 30px;
+    }
+    .tentu_subdiv2_textdiv{
+        margin-top: 0px;
+    }
+}

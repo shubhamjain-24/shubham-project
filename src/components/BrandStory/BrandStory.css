@@ -1,0 +1,54 @@
+.brandStory_mainContainer{
+    background-color: #Ffff;
+    padding: 60px;
+}
+.brandStory_flexContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bS_imgContainer{
+    flex: 1;
+}
+.sB_textbackimg{
+    position: absolute;
+    opacity: 0.3;
+}
+.bS_textContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+    flex: 1;
+    padding: 20px;
+    /* border: 1px solid red; */
+
+}
+.bS_image{
+    /* border: 1px solid red; */
+    width:100%;
+}
+.bS_heading{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.bS_text{
+    margin-top: 20px;
+    width: 80%;
+    font-size: 1.2rem;
+    line-height: 40px;
+}
+@media screen and (max-width: 900px){
+    .brandStory_flexContainer{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 650px){
+    .bS_text{
+        width: 100%;
+        font-size: 1rem;
+        line-height: 30px;
+        text-align: center;
+    }
+}
