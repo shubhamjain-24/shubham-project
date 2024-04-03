@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from "../asset/logo.png"
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import { GiHamburgerMenu } from "react-icons/gi";
 import {
     Drawer,
@@ -18,7 +18,10 @@ const Navbar = () => {
     <div className='min-h-32 justify-center lg:flex items-center hidden md:flex xl:flex'>
         <div className='lg:max-w-[900px] md:max-w-[700px]  h-full w-full'>
 <ul className='flex justify-between items-center lg:text-2xl md:text-2xl text-gray-500 font-thin'>
-    <li className='cursor-pointer hover:text-gray-800'>Tantu Journey</li>
+  <NavLink to="/about">
+  <li className='cursor-pointer hover:text-gray-800'>Tantu Journey</li>
+  </NavLink>
+   
     <li className='cursor-pointer hover:text-gray-800'>Shop</li>
     <Link to={'/'} className='w-48 h-full cursor-pointer'>
         <img src={logo} alt="logo" loading='lazy' />
@@ -70,7 +73,10 @@ const Navbar = () => {
 
         <div className='w-full flex justify-start items-center flex-col gap-10 mt-10'>
         <Typography color="gray" className="mb-8 pr-4 font-thin text-xl cursor-pointer">
-        Tantu Journey
+          <NavLink to="/about">
+          Tantu Journey
+          </NavLink>
+        
         </Typography>
         <Typography color="gray" className="mb-8 pr-4 font-thin text-xl cursor-pointer">
         Shop
