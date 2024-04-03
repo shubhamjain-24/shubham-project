@@ -1,0 +1,59 @@
+.Pillars_mainContainer{
+    background-color: rgb(251, 248, 240);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.pillars_flexContainer{
+    width: 90%;
+    display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+   gap: 20px;
+   padding: 40px 0px;
+}
+.pillarDiv1{
+    background-color: #F0EBDA;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 250px;
+    width: 250px;
+}
+.pillarImage{
+    width: 60%;
+}
+.pillars_textContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top:  50px; ;
+}
+.pillars_headText{
+    color: #5C5C5C;
+    font-size: 2.5rem;
+}
+.pillars_subText{
+    color: #556B2F;
+    font-size: 2rem;
+    font-style: italic;
+}
+.pillars_card_text{
+    font-size: 1.3rem;
+    color: #556B2F;
+    width: 50%;
+    text-align: center;
+}
+@media screen and (max-width: 577px){
+    .pillars_flexContainer{
+        width: max-content;
+    }
+    .pillarDiv1{
+
+    }
+}
+

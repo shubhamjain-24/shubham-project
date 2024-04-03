@@ -1,0 +1,44 @@
+.LearnMore_MainDiv{
+
+}
+.LearnMore_flexDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.LearnMore_textDiv{
+    flex: 1;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+.Learnmore_text{
+    width: 50%;
+}
+.LearnMoreButton{
+    padding: 10px 40px 10px 40px;
+    border: 2px solid black;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.LearnMore_imageDiv{
+    flex: 1;
+    padding: 30px;
+}
+.LearnmoreImage{
+    /* height: 300px; */
+}
+@media screen and (max-width: 730px){
+    .LearnMore_flexDiv{
+        flex-direction: column;
+    }
+    .Learnmore_text{
+        width: 90%;
+    }
+}

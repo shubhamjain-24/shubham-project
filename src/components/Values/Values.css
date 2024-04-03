@@ -1,0 +1,47 @@
+.values_mainContainer{
+    background-color: rgb(241, 238, 226);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.values_headContainer{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.values_headText{
+    font-size: 3rem;
+    font-weight: 400;
+}
+.values_subText{
+    font-size: 1.2rem;
+    width: 50%;
+    margin-top: 20px;
+    font-weight: 300;
+}
+.value_imageDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.values_imageContainer{
+    width: 90%;
+    display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+   gap: 20px;
+   padding: 40px 0px;
+}
+.value_imageText{
+    margin-top: 10px;
+    font-size: 1.3rem;
+}
+
+@media screen and (max-width: 500px){
+    .values_subText{
+        text-align: center;
+    }
+}

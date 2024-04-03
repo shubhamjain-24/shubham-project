@@ -1,0 +1,58 @@
+.why_mainContaniner{
+    background-image: url(../../asset/Whyhemp.jpg);
+    background-size: cover;
+    /* height: 80vh; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+.why_flexContainer{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    width: 80%;
+    /* border: 1px solid red; */
+}
+.why_flexDiv1{
+    flex: 3;
+    padding: 60px;
+}
+.why_div1_head{
+    font-size: 3rem;
+    font-weight: 500;
+    color:#fff;
+    letter-spacing: 5px;
+}
+.why_flexDiv2{
+    flex: 2;
+    padding: 60px;
+    /* border: 1px solid green; */
+    text-align: right;
+}
+.why_div2_listContainer{
+    font-size: 1.4rem;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: white;
+    line-height: 50px;
+}
+.why_div2_listItem{
+    margin-top: 10%;
+}
+@media screen and (max-width: 1000px){
+    .why_flexContainer{
+        flex-direction: column;
+    }
+    .why_flexDiv2{
+        text-align: center;
+    }
+    /* .why_mainContaniner */
+}
+@media screen and (max-width: 600px){
+    .why_div1_head{
+        font-size: 2.2rem;
+    }
+    .why_div2_listContainer{
+        font-size: 1.2rem;
+    }
+}

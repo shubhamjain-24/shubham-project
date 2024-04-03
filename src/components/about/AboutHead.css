@@ -1,27 +1,41 @@
 .aboutUseadText{
+    margin-top: 200px;
     font-size: 4rem;
     position: relative;
     color: white;
-    width: 50%;
-    text-align: center;
+    width: 70%;
+    text-align: left;
+    font-weight: bold;
+    padding-left: 5%;
+}
+.aboutUseadText2{
+    font-size: 3rem;
+    position: relative;
+    color: white;
+    font-weight: 300;
+    text-align: left;
 }
 .aboutHeadImg{
     position: absolute;
     z-index: -1;
-    height: 600px;
+    height: 800px;
     width: 100%;
     object-fit: cover;
 }
 .aboutHead_backContainer{
-    background-color: rgba(0, 0, 0, 0.415);
+    background-color: rgba(123, 123, 123, 0.115);
     display: flex;
     align-items: center;
-    justify-content: center;
-    height: 600px;
+    justify-content: left;
+    /* padding-left: 30px; */
+    height: 800px;
 }
 @media screen and (max-width: 800px){
     .aboutUseadText{
         font-size: 3rem;
+    }
+    .aboutUseadText2{
+        font-size: 2.5rem;
     }
 }
 @media screen and (max-width: 600px){
@@ -29,10 +43,16 @@
         font-size: 2.5rem;
         width: 70%;
     }
+    .aboutUseadText2{
+        font-size: 2.22rem;
+    }
 }
 @media screen and (max-width: 450px){
     .aboutUseadText{
         font-size: 2.3rem;
         width: 90%;
+    }
+    .aboutUseadText2{
+        font-size: 2rem;
     }
 }

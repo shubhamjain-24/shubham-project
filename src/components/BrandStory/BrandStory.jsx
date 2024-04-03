@@ -1,15 +1,13 @@
 import React from 'react'
 import './BrandStory.css'
-import img1 from '../../asset/plant2.jpeg'
+import img1 from '../../asset/plant2.png'
 import img2 from '../../asset/backstorybg.png'
 const BrandStory = () => {
   return (
     <>
         <div className="brandStory_mainContainer">
             <div className="brandStory_flexContainer">
-                <div className="bS_imgContainer">
-                    <img className='bS_image' src={img1} alt="" />
-                </div>
+                
                 <div className="bS_textContainer">
                     <img className='sB_textbackimg' src={img2} alt="" />
                     <div className="bS_heading">Brand Story</div>
@@ -24,6 +22,9 @@ const BrandStory = () => {
                     <br />
                     Together, let’s embark on a mission to create a community and redefine a lifestyle that benefits the mankind and the planet. 
                     </div>
+                </div>
+                <div className="bS_imgContainer">
+                    <img className='bS_image' src={img1} alt="" />
                 </div>
             </div>
         </div>
