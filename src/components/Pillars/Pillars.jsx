@@ -11,7 +11,7 @@ const Pillars = () => {
         <div className="Pillars_mainContainer">
           <div className="pillars_textContainer">
             <div className="pillars_headText">
-                WHY WEAR HEMP?
+                GREEN PILLARS
             </div>
             <div className="pillars_subText">
             Meeting Earth's natural Wonder

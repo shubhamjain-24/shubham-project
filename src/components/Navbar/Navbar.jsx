@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from "../asset/logo.png"
+import logo from "../../asset/logo.png"
 import { Link, NavLink } from 'react-router-dom'
 import { GiHamburgerMenu } from "react-icons/gi";
 import {
@@ -7,6 +7,7 @@ import {
     Typography,
     IconButton,
   } from "@material-tailwind/react";
+  import './Navbar.css'
 
 const Navbar = () => {
 
@@ -15,19 +16,22 @@ const Navbar = () => {
     const closeDrawerRight = () => setOpenRight(false);
   return (
     <>
-    <div className='min-h-32 justify-center lg:flex items-center hidden md:flex xl:flex'>
+    <div className='min-h-32 justify-center lg:flex items-center hidden md:flex xl:flex Navbar_mainContainer'>
         <div className='lg:max-w-[900px] md:max-w-[700px]  h-full w-full'>
-<ul className='flex justify-between items-center lg:text-2xl md:text-2xl text-gray-500 font-thin'>
+<ul className='flex justify-between items-center lg:text-2xl md:text-2xl text-gray-900 font-thin Navbar_itemsContainer'>
   <NavLink to="/about">
-  <li className='cursor-pointer hover:text-gray-800'>Tantu Journey</li>
+  <li className='cursor-pointer hover:text-gray-600'>Tantu Journey</li>
   </NavLink>
    
-    <li className='cursor-pointer hover:text-gray-800'>Shop</li>
+    <li className='cursor-pointer hover:text-gray-600'>Shop</li>
     <Link to={'/'} className='w-48 h-full cursor-pointer'>
         <img src={logo} alt="logo" loading='lazy' />
     </Link>
-    <li className='cursor-pointer hover:text-gray-800'>Blogs</li>
-    <li className='cursor-pointer hover:text-gray-800'>Contact Us</li>
+    <NavLink to="/blog">
+    <li className='cursor-pointer hover:text-gray-600'>Blogs</li>
+    </NavLink>
+    
+    <li className='cursor-pointer hover:text-gray-600'>Contact Us</li>
 </ul>
         </div>
     </div>

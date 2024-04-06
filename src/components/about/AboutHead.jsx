@@ -6,6 +6,7 @@ const AboutHead = () => {
   return (
     <>
     <div className="aboutHead_mainContainer">
+      <div className="aboutHead_subContainer">
             <img src={img1}alt="" className="aboutHeadImg" />
         <div className="aboutHead_backContainer">
             <div className="aboutUseadText">
@@ -19,7 +20,7 @@ const AboutHead = () => {
             </div>
             
         </div>
-
+        </div>
     </div>
     </>
   )

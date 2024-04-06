@@ -1,6 +1,6 @@
 import React from 'react'
 import './AboutUs.css'
-import Navbar from '../../components/Navbar'
+import Navbar from '../../components/Navbar/Navbar'
 import Fabric from '../../components/Fabric/Fabric'
 import BrandStory from '../../components/BrandStory/BrandStory'
 import Tantukosh from '../../components/Tantukosh/Tantukosh'

@@ -1,3 +1,12 @@
+.aboutHead_mainContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(250, 249, 243);
+}   
+.aboutHead_subContainer{
+    width: 90%;
+}
 .aboutUseadText{
     margin-top: 200px;
     font-size: 4rem;
@@ -17,9 +26,9 @@
 }
 .aboutHeadImg{
     position: absolute;
-    z-index: -1;
+    /* z-index: -1; */
     height: 800px;
-    width: 100%;
+    width: 90%;
     object-fit: cover;
 }
 .aboutHead_backContainer{

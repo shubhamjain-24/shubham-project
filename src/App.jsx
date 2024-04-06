@@ -1,10 +1,9 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import MotherNature from "./components/MotherNature";
 import Layout from "./components/Layout";
 import Home from "./Pages/Home/Home";
-import Footer from "./components/Footer/Footer";
 import AboutUs from "./Pages/About/AboutUs";
+import Blogs from "./Pages/Blogs/Blogs";
 
 const App = () => {
   return (
@@ -13,6 +12,7 @@ const App = () => {
         <Route element={<Layout />} path="/">
           <Route element={<Home />} path="/" index/>
           <Route element={<AboutUs />} path="/about" />
+          <Route element={<Blogs />} path="/blog" />
         </Route>
       </Routes>
       {/* <Footer/> */}

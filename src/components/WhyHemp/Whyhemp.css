@@ -26,8 +26,10 @@
 .why_flexDiv2{
     flex: 2;
     padding: 60px;
-    /* border: 1px solid green; */
-    text-align: right;
+    text-align: center;
+    display: flex;
+    /* align-items: end; */
+    justify-content: end;
 }
 .why_div2_listContainer{
     font-size: 1.4rem;
@@ -35,6 +37,20 @@
     letter-spacing: 3px;
     color: white;
     line-height: 50px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+
+}
+.why_div2_item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.why_div2_image{
+    width: 30px;
+    margin-right:  10px; ;
 }
 .why_div2_listItem{
     margin-top: 10%;
