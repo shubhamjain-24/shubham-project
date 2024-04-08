@@ -1,6 +1,6 @@
 import React from "react";
 import "./BlogPage2.css";
-import img1 from "../../../asset/blog2.jpg";
+import img1 from "../../../asset/BLOGimage2.jpg";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { NavLink } from "react-router-dom";
 import { useNavigate } from 'react-router-dom';

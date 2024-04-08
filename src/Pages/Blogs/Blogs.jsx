@@ -2,7 +2,7 @@ import React from "react";
 import "./Blogs.css";
 // import img1 from "../../asset/thread.png";
 import img1 from "../../asset/blog1.jpg";
-import img2 from "../../asset/blog22.jpg";
+import img2 from "../../asset/BLOGimage2.jpg";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { NavLink } from "react-router-dom";
 const Blogs = () => {
