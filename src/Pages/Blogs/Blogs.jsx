@@ -2,6 +2,7 @@ import React from 'react'
 import './Blogs.css'
 import img1 from "../../asset/thread.png";
 import { FaArrowRightLong } from "react-icons/fa6";
+import { NavLink } from 'react-router-dom';
 const Blogs = () => {
   return (
     <>
@@ -23,9 +24,11 @@ const Blogs = () => {
                     <p className="blogs_description">
                     Would you like to live a zero-waste, sustainable life?  Well, here are some bite-sized recycling facts for you. Did you know that in the US alone, more than 16.9 million tons.......
                     </p>
-                    <button className="blogs_button">
+                    <NavLink to="/blogpage">
+                    <button  className="blogs_button">
                         Readmore <FaArrowRightLong style={{ marginLeft: "10px" }} />
                     </button>
+                    </NavLink>
                 </div>
 
                 {/* blog 2 */}
