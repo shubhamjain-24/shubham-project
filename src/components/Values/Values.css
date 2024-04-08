@@ -43,5 +43,12 @@
 @media screen and (max-width: 500px){
     .values_subText{
         text-align: center;
+        width: 90%;
+       
+    }
+    .values_headText{
+        text-align: center;
+        font-size: 2.2rem;
+        font-weight: 600;
     }
 }

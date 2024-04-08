@@ -74,9 +74,9 @@
 }
 @media screen and (max-width: 500px){
     /* tmepo to be removed after the demo */
-    .fabric_mainContainer{
+    /* .fabric_mainContainer{
         margin-top: 170px;
-    }
+    } */
 
     .fabric_subtextContainer{
         width: 95%;

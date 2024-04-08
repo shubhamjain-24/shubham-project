@@ -3,14 +3,14 @@ import "./Blogpage.css";
 import img1 from "../../../asset/blog1.jpg";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { NavLink } from "react-router-dom";
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 
 const BlogPage = () => {
-    const navigate = useNavigate();
+  const navigate = useNavigate();
 
-    const goToPreviousPath = () => {
-        navigate(-1); // Go back one page
-    }
+  const goToPreviousPath = () => {
+    navigate(-1); // Go back one page
+  };
   return (
     <>
       <div className="BlogPage_mainContainer">
@@ -23,9 +23,9 @@ const BlogPage = () => {
           <h6 className="BlogWriter">Ranya 04 April 2024</h6>
           <div className="blogContent_container">
             <div className="blogpage_imageContainer">
-                <img src={img1} alt="" className="BlogPage_image" />
+              <img src={img1} alt="" className="BlogPage_image" />
             </div>
-            
+
             <div className="BlogPage_description">
               In the bustling landscape of modern fashion, where trends come and
               go in the blink of an eye, one thing remains constant: the
@@ -61,11 +61,7 @@ const BlogPage = () => {
                 Add to that the use of pesticides and fertilizers that degrades
                 the soil quality with time.
               </li>
-              
-            </div> 
-          </div>
-          <div className="BlogPage_description2">
-            From releasing 10% of microplastics into the ocean annually via
+              From releasing 10% of microplastics into the ocean annually via
               textiles to consuming 20,000 liters of water to produce one
               kilogram of cotton the apparel industry's global emissions are
               projected to double by the decade's end, but there is hope on the
@@ -92,9 +88,10 @@ const BlogPage = () => {
               Together, we can redefine the fashion industry and pave the way
               for a greener, more sustainable world.
             </div>
+          </div>
         </div>
         <button onClick={goToPreviousPath} className="BlogPageButton">
-            Back <FaArrowRightLong style={{marginLeft:"10px"}}/>
+          Back <FaArrowRightLong style={{ marginLeft: "10px" }} />
         </button>
       </div>
     </>

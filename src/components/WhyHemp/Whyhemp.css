@@ -72,3 +72,28 @@
         font-size: 1.2rem;
     }
 }
+@media screen and (max-width: 500px){
+    .why_flexContainer{
+        width: 100%;
+    }
+    .why_flexDiv1{
+        width: 100%;
+        padding: 0;
+        margin-top: 30px;
+    }
+    .why_div1_head{
+        /* width: 100%; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .why_flexDiv2{
+        /* border: 1px solid red; */
+        /* padding: 20PX; */
+    }
+    .why_div2_listContainer{
+        /* border: 1px solid green; */
+        width: 100%;
+    }
+}

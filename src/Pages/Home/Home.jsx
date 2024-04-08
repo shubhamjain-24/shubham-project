@@ -14,7 +14,7 @@ const Home = () => {
       <LearnMore />
       <Whyhemp />
       <BlogSection />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

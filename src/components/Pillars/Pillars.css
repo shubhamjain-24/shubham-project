@@ -12,6 +12,12 @@
    gap: 20px;
    padding: 40px 0px;
 }
+.pillarDiv1_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 .pillarDiv1{
     background-color: #F0EBDA;
     border-radius: 50%;
@@ -43,17 +49,38 @@
     font-style: italic;
 }
 .pillars_card_text{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+    margin-top: 10px;
     color: #556B2F;
-    width: 50%;
+    width: 100%;
     text-align: center;
 }
 @media screen and (max-width: 577px){
     .pillars_flexContainer{
         width: max-content;
     }
+    .pillars_textContainer{
+        /* border: 1px solid red; */
+        width: 90%;
+    }
+    .pillars_headText{
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    .pillars_subText{
+        text-align: center;
+        font-size: 1.4rem;
+    }
     .pillarDiv1{
-
+        background-color: #F0EBDA;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 200px;
+        width: 200px;
     }
 }
 

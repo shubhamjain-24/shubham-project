@@ -19,7 +19,7 @@ const AboutUs = () => {
     <Values/>
     <Pillars/>
     <GreenReason/>
-    <Footer/>
+    {/* <Footer/> */}
     </>
   )
 }

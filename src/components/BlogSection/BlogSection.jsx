@@ -1,7 +1,9 @@
 import React from "react";
 import "./BlogSection.css";
-import img1 from "../../asset/thread.png";
+import img1 from "../../asset/blog1.jpg";
+import img2 from "../../asset/blog2.jpg";
 import { FaArrowRightLong } from "react-icons/fa6";
+import { NavLink } from "react-router-dom";
 
 const BlogSection = () => {
   return (
@@ -22,38 +24,45 @@ const BlogSection = () => {
               </div>
               <div className="BlogSection_TextDiv">
                 <div className="BlogSectionText_head">
-                  SUSTAINABLE FASHION: THE INS AND OUTS OF CLOTHES RECYCLING
+                  Who doesn’t love to dress up and turn heads? We all do! But at
+                  what cost to our planet?
                 </div>
                 <div className="BlogSectionText_sub">
-                  Would you like to live a zero-waste, sustainable life?  Well,
-                  here are some bite-sized recycling facts for you. Did you know
-                  that in the US alone, more than 16.9 million tons.......{" "}
+                  In the bustling landscape of modern fashion, where trends come
+                  and go in the blink of an eye, one thing remains constant: the
+                  undeniable toll that fast fashion takes on .......
                 </div>
-                <div className="Blogsection_textDiv_button">
-                  Read More
-                  <FaArrowRightLong style={{ marginLeft: "5px" }} />
-                </div>
+                <NavLink to="/blogpage">
+                  <div className="Blogsection_textDiv_button">
+                    Read More
+                    <FaArrowRightLong style={{ marginLeft: "5px" }} />
+                  </div>
+                </NavLink>
               </div>
             </div>
 
             {/* blog1 */}
             <div className="BlogSection_blogDiv" style={{ marginTop: "20px" }}>
               <div className="BlogSection_image_Container">
-                <img src={img1} alt="" className="BlogSection_image" />
+                <img src={img2} alt="img" className="BlogSection_image" />
               </div>
               <div className="BlogSection_TextDiv">
                 <div className="BlogSectionText_head">
-                  SUSTAINABLE FASHION: THE INS AND OUTS OF CLOTHES RECYCLING
+                  Unveiling the Green Revolution: How Hemp Fibers are Reshaping
+                  the Fashion Landscape
                 </div>
                 <div className="BlogSectionText_sub">
-                  Would you like to live a zero-waste, sustainable life?  Well,
-                  here are some bite-sized recycling facts for you. Did you know
-                  that in the US alone, more than 16.9 million tons.......{" "}
+                  In a world where the fashion industry often prioritizes trends
+                  over sustainability, a quiet revolution is taking place. Step
+                  into a world where every stitch tells a story—a story of
+                  innovation.......
                 </div>
+                <NavLink to="/blogpage2">
                 <div className="Blogsection_textDiv_button">
                   Read More
                   <FaArrowRightLong style={{ marginLeft: "5px" }} />
                 </div>
+                </NavLink>
               </div>
             </div>
           </div>
@@ -62,9 +71,9 @@ const BlogSection = () => {
               <div className="BlogSection_flex2_text">
                 INSIGHTS TO SUSTAINABLE FASHION AND ECO-CONCIOUS LIVING
               </div>
-              <div className="BlogSection_flex2_Button">
-                EXPLORE BLOGS
-              </div>
+              <NavLink to="/blog">
+              <div className="BlogSection_flex2_Button">EXPLORE BLOGS</div>
+              </NavLink>
             </div>
           </div>
         </div>
