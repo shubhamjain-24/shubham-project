@@ -45,6 +45,7 @@
   line-height: 30px;
   margin-top: 20px;
   width: 60%;
+  /* padding-bottom: 30px; */
 }
 .BlogPage_description2{
   color: #444444;
@@ -71,6 +72,7 @@
   margin-top: 20px;
   overflow: hidden;
   transition: color 0.3s, background-position 0.3s;
+  margin-bottom: 30px;
 }
 
 .BlogPageButton::before {
