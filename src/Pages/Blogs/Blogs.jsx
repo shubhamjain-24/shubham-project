@@ -49,7 +49,7 @@ const Blogs = () => {
             </p>
             <NavLink to="/blogpage2">
               <button className="blogs_button">
-                Readmore <FaArrowRightLong style={{ marginLeft: "10px" }} />
+                Read More <FaArrowRightLong style={{ marginLeft: "10px" }} />
               </button>
             </NavLink>
           </div>
