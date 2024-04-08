@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    /* padding-bottom: 30px; */
+    padding-bottom: 50px;
 }
 .BlogSection_TextContainer{
     display: flex;
@@ -198,4 +198,7 @@
         height: 180px;
         border-radius: 10px;
     }
+    /* .BlogSection_mainContainer{
+        padding-bottom: 40px;
+    } */
 }
