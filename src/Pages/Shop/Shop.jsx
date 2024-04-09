@@ -8,7 +8,7 @@ const Shop = () => {
     <div className="shop_mainContainer">
       <div className="shop_subContainer">
         <h1 className="shop_head">
-          WE ARE GETTING AWSOME PRODUCTS SOON STAY TUNED .....
+          WE ARE GETTING AWESOME PRODUCTS SOON STAY TUNED !
         </h1>
         <img src={img1} alt="" className="shop_image" />
       </div>
