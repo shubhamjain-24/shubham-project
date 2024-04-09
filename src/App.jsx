@@ -8,10 +8,13 @@ import Blogpage2 from "./Pages/Blogs/BlogPage2/Blogpage2";
 import ContactUs from "./Pages/ContactUs/ContactUs";
 import Layout from "./Layout";
 import Shop from './Pages/Shop/Shop'
+import BlogPage3 from "./Pages/Blogs/BlogPage3/BlogPage3";
+import Backtoscroll from './components/BacktoScroll/Backtoscroll'
 
 const App = () => {
   return (
     <BrowserRouter>
+    <Backtoscroll/>
       <Routes>
         <Route element={<Layout />} path="/">
           <Route element={<Home />} path="/" index />
@@ -19,8 +22,10 @@ const App = () => {
           <Route element={<Blogs />} path="/blog" />
           <Route element={<BlogPage />} path="/blogpage" />
           <Route element={<Blogpage2 />} path="/blogpage2" />
+          <Route element={<BlogPage3 />} path="/blogpage3" />
           <Route element={<ContactUs />} path="/contactus"></Route>
           <Route element={<Shop />} path="/shop"></Route>
+          
         </Route>
        
       </Routes>

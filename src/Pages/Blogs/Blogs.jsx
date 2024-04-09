@@ -3,6 +3,8 @@ import "./Blogs.css";
 // import img1 from "../../asset/thread.png";
 import img1 from "../../asset/blog1.jpg";
 import img2 from "../../asset/BLOGimage2.jpg";
+import img3 from "../../asset/blog3.jpg";
+
 import { FaArrowRightLong } from "react-icons/fa6";
 import { NavLink } from "react-router-dom";
 const Blogs = () => {
@@ -29,7 +31,7 @@ const Blogs = () => {
             </p>
             <NavLink to="/blogpage">
               <button className="blogs_button">
-                Readmore <FaArrowRightLong style={{ marginLeft: "10px" }} />
+                Read More <FaArrowRightLong style={{ marginLeft: "10px" }} />
               </button>
             </NavLink>
           </div>
@@ -56,18 +58,20 @@ const Blogs = () => {
 
           {/* blog 3 */}
           <div className="Blogs_cardDiv">
-            <img src={img1} alt="" className="blogs_image" />
+            <img src={img3} alt="" className="blogs_image" />
             <h1 className="blogs_tittle">
-              Sustainable Fashion: The Ins and Outs of Clothes Recycling
+            Green is the New Black:
+Tips for Building a Sustainable Wardrobe
             </h1>
             <p className="blogs_description">
-              Would you like to live a zero-waste, sustainable life?  Well, here
-              are some bite-sized recycling facts for you. Did you know that in
-              the US alone, more than 16.9 million tons.......
+            Hey, Green Warrior! Welcome to another blog that will take you towards a greener path. Today, let’s curate a wardrobe that reflects your values and reduces your environmental footprint which is not only stylish but also kind to the planet.......
             </p>
+            <NavLink to='/blogpage3'>
+
             <button className="blogs_button">
-              Readmore <FaArrowRightLong style={{ marginLeft: "10px" }} />
+              Read More <FaArrowRightLong style={{ marginLeft: "10px" }} />
             </button>
+            </NavLink>
           </div>
         </div>
       </div>
