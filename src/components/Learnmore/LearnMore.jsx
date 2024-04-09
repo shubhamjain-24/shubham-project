@@ -1,6 +1,7 @@
 import React from 'react'
 import img1 from '../../asset/ThreadsImage.jpg'
 import './LearnMore.css'
+import { NavLink } from 'react-router-dom'
 
 const LearnMore = () => {
   return (
@@ -11,9 +12,11 @@ const LearnMore = () => {
               <div className="Learnmore_text">
               A brand built on a deep-rooted commitment to nature, sustainability. Today, we stand as a beacon of hope for eco-conscious consumers who seek not just the products, but a purpose-driven lifestyle.
               </div>
+              <NavLink to="/about">
             <div className="LearnMoreButton">
               Learn More
             </div>
+              </NavLink>
             </div>
             <div className="LearnMore_imageDiv">
                 <img src={img1} alt="" className="LearnmoreImage" />

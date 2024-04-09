@@ -79,6 +79,10 @@
     font-weight: lighter;
     color: #5C5C5C;
     /* justify-content: center; */
+    transition: 0.1s all ease-in-out;
+}
+.Blogsection_textDiv_button:hover{
+    color: black;
 }
 .blogSection_flex2{
     flex: 1.3;
