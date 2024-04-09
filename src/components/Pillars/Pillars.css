@@ -40,7 +40,8 @@
     padding-top:  50px; ;
 }
 .pillars_headText{
-    color: #5C5C5C;
+    /* color: #5C5C5C; */
+    color: black;
     font-size: 2.5rem;
 }
 .pillars_subText{
