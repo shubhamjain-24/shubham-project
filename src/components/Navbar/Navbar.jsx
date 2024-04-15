@@ -15,8 +15,8 @@ const Navbar = () => {
         <div className="lg:max-w-[900px] md:max-w-[700px]  h-full w-full">
           <ul className="flex justify-between items-center lg:text-2xl md:text-2xl text-gray-900 font-thin Navbar_itemsContainer">
             <NavLink to="/about">
-              <li className="cursor-pointer hover:text-gray-600">
-                Tantu Journey
+              <li className="cursor- &nbsp;pointer hover:text-gray-600">
+                Our Story
               </li>
             </NavLink>
             <NavLink to="/shop">
@@ -26,7 +26,7 @@ const Navbar = () => {
               <img src={logo} alt="logo" loading="lazy" />
             </Link>
             <NavLink to="/blog">
-              <li className="cursor-pointer hover:text-gray-600">Blogs</li>
+              <li className="cursor-pointer hover:text-gray-600">Eco Tales</li>
             </NavLink>
             <NavLink to="/contactus">
             <li className="cursor-pointer hover:text-gray-600">Contact Us</li>
@@ -82,7 +82,7 @@ const Navbar = () => {
               color="gray"
               className="mb-8 pr-4 font-thin text-xl cursor-pointer"
             >
-              <NavLink to="/about">Tantu Journey</NavLink>
+              <NavLink to="/about">Our Story</NavLink>
             </Typography>
             <Typography
               color="gray"
@@ -98,7 +98,7 @@ const Navbar = () => {
             >
               <NavLink to="/blog">
 
-              Blogs
+              Eco Tales
               </NavLink>
             </Typography>
             <Typography

@@ -10,7 +10,7 @@ const BlogSection = () => {
     <>
       <div className="BlogSection_mainContainer">
         <div className="BlogSection_TextContainer">
-          <div className="BlogSection_HeadText">Green Journal</div>
+          <div className="BlogSection_HeadText">Eco Tales</div>
           <div className="BlogSection_SubText">
             Your guide to sustainable fashion and eco-conscious living.
           </div>
@@ -69,7 +69,8 @@ const BlogSection = () => {
           <div className="blogSection_flex2">
             <div className="BlogSection_flex2_textContainer">
               <div className="BlogSection_flex2_text">
-                INSIGHTS TO SUSTAINABLE FASHION AND ECO-CONCIOUS LIVING
+              INSIGHTS TO SUSTAINABILITY BEGIN HERE
+
               </div>
               <NavLink to="/blog">
               <div className="BlogSection_flex2_Button">EXPLORE BLOGS</div>

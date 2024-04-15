@@ -77,6 +77,13 @@
   }
 .LearnmoreImage{
     /* height: 300px; */
+    width: 80%;
+    margin-left: 100px;
+}
+@media screen and (max-width: 1100px){
+  .Learnmore_text{
+    width: 70%;
+}
 }
 @media screen and (max-width: 730px){
     .LearnMore_flexDiv{
@@ -85,4 +92,9 @@
     .Learnmore_text{
         width: 90%;
     }
+    .LearnmoreImage{
+      /* height: 300px; */
+      width: 100%;
+      margin-left: 0px;
+  }
 }

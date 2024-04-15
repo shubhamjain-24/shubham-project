@@ -11,7 +11,6 @@ const Pillars = () => {
       <div className="Pillars_mainContainer">
         <div className="pillars_textContainer">
           <div className="pillars_headText">GREEN PILLARS</div>
-          <div className="pillars_subText">Meeting Earth's natural Wonder</div>
         </div>
         <div className="pillars_flexContainer">
 
@@ -36,7 +35,7 @@ const Pillars = () => {
             <div className="pillarDiv1">
               <img src={img4} alt="" className="pillarImage" />
             </div>
-            <div className="pillars_card_text">Ethically sustainable sourcing</div>
+            <div className="pillars_card_text">Ethically Sourced</div>
           </div>
 
            {/* div4 */}
@@ -44,7 +43,7 @@ const Pillars = () => {
             <div className="pillarDiv1">
               <img src={img3} alt="" className="pillarImage" />
             </div>
-            <div className="pillars_card_text">Handcreafted</div>
+            <div className="pillars_card_text">Handcrafted</div>
           </div>
         </div>
       </div>

@@ -15,12 +15,14 @@
 
 }
 .BlogSection_HeadText{
-    font-size: 2.8rem;
-    color: #5C5C5C;
+    font-size: 2.6rem;
+    /* color: #5C5C5C; */
+    color: black;
 }
 .BlogSection_SubText{
-    color: #8B4513;
-    font-size: 1.8rem;
+    /* color: #8B4513; */
+    color: #556B2F;
+    font-size: 1.6rem;
     font-style: italic;
 }
 .BlogSection_FlexContainer{
@@ -50,7 +52,7 @@
     border-radius: 20px;
     height: 220px;
     object-fit: cover;
-    flex: 1;
+    flex: 1.7;
 }
 .BlogSection_image{
     width: 100%;
@@ -59,11 +61,12 @@
 }
 .BlogSection_TextDiv{
     padding: 20px;
-    flex: 1;
+    flex: 2.3;
 }
 .BlogSectionText_head{
     font-size: 1.5rem;
     color: #5c5c5c;
+    line-height: 30px;
 }
 .BlogSectionText_sub{
     color: #8B4513;

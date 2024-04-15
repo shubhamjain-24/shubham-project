@@ -31,17 +31,10 @@ const Tantukosh = () => {
                 sustainability.
               </div>
               <div className="tant_text2">
-                "Tantukosh" is derived from two Sanskrit words, where "Tantu"
-                means thread and "Kosh" means treasure. Together, the name
-                signifies the essence of a treasure made of threads.
+              "Tantukosh" is derived from two Sanskrit words, where "Tantu" means Thread and "Kosh" means Treasure. Together, the name signifies the essence of a treasure made of threads.
                 <br />
                 <br />
-                Tantukosh represents a brand that celebrates the beauty and
-                value of natural threads, emphasizing their inherent richness
-                and importance in today's world, and in the future. Each product
-                reflects the idea of a precious collection of threads,
-                highlighting the brand's focus on quality and the authentic
-                beauty found in natural fibers.
+                Tantukosh represents a brand that celebrates the beauty and value of natural threads, emphasizing their inherent richness and importance in today's world, and the future.Each product reflects the idea of a precious collection of threads, highlighting the brand's focus on quality and the authentic beauty found in natural fibers.
               </div>
             </div>
           </div>

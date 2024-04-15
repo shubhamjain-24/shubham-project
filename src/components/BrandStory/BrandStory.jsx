@@ -11,7 +11,7 @@ const BrandStory = () => {
             <img className="sB_textbackimg" src={img2} alt="" />
             <div className="bS_heading">Brand Story</div>
             <div className="bS_text">
-              Hey green warrior! <br />
+              Hey green warrior! <br /> <br />
               Tantukosh is founded by two childhood best friends who shared a
               dream – a dream of a world where fashion, lifestyle and
               eco-responsibility walk hand in hand. This dream was born out of

@@ -8,8 +8,8 @@ const GreenReason = () => {
       <div className="GreenReason_mainContainer">
         <div className="GreenRason_backContainer">
           <Marquee className="GreenReasonMarquee">
-            Your Green Reason.  Your Green Reason.  Your Green Reason.  Your Green
-            Reason.  Your Green Reason.  Your Green Reason
+            Your Green Reason. &nbsp;  Your Green Reason.  Your Green Reason. &nbsp;  Your Green
+            Reason. &nbsp;  Your Green Reason. &nbsp;  Your Green Reason  &nbsp;  &nbsp;
           </Marquee>
         </div>
         <div className="GreenReason_frontContainer">

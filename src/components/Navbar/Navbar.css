@@ -5,7 +5,7 @@
     background-color: rgb(250, 249, 243);
 }
 .Navbar_itemsContainer{
-    margin-left: -40px;
+    /* margin-left: -40px; */
 }
 @media screen and (max-width: 900px){
     .Navbar_itemsContainer{

@@ -9,7 +9,7 @@ const Categories = () => {
     <>
       <div className="categories_mainContainer">
         <div className="categories_textContainer">
-          <div className="categories_headText">From Earth To Wardrobe</div>
+          <div className="categories_headText">From the earth to your wardrobe</div>
           <div className="categories_subText">
             Step into a world of eco-luxury
           </div>
@@ -20,7 +20,7 @@ const Categories = () => {
           <div className="categories_cardDiv">
             <div className="categories_image_div">
                 <div className="categories_image_shadow">
-                Discover eco-chic attire, embodying strength, grace, and sustainable elegance for women.
+                Discover attires, that embody strength, grace, and sustainable elegance for women.
                 </div>
               <img src={img1} alt="" className="categories_card_image" />
             </div>
@@ -36,14 +36,14 @@ const Categories = () => {
             <div className="categories_cardDiv">
             <div className="categories_image_div">
                 <div className="categories_image_shadow">
-                Explore sustainable menswear, uniting style, comfort, and eco-friendly craftsmanship in every garment
+                Explore sustainable menswear, harmonizing style, comfort, and eco-friendly craftsmanship in every garment.
                 </div>
               <img src={img2} alt="" className="categories_card_image" />
             </div>
             <div className="categories_cardText_container">
               <div className="categories_card_head">Men</div>
               <div className="categories_card_subtext">
-              Style that aligns sophistication and sustainability
+              Style that aligns with sophistication and sustainability
               </div>
             </div>
           </div>
@@ -52,7 +52,7 @@ const Categories = () => {
             <div className="categories_cardDiv">
             <div className="categories_image_div">
                 <div className="categories_image_shadow">
-                Discover eco-chic attire, embodying strength, grace, and sustainable elegance for women.
+                Find a curated selection of eco-conscious home essentials for every corner of your home.
                 </div>
               <img src={img3} alt="" className="categories_card_image" />
             </div>
