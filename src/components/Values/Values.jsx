@@ -23,19 +23,19 @@ const Values = () => {
                 {/* image */}
                 <div className="value_imageDiv">
                 <img src={img2} alt="" className="values_image" />
-                <div className="value_imageText">Tantukosh</div>
+                <div className="value_imageText">Banana Extract</div>
                 </div>
 
                 {/* image */}
                 <div className="value_imageDiv">
                 <img src={img1} alt="" className="values_image" />
-                <div className="value_imageText">Tantukosh</div>
+                <div className="value_imageText">Bamboo Extract</div>
                 </div>
 
                 {/* image */}
                 <div className="value_imageDiv">
                 <img src={img3} alt="" className="values_image" />
-                <div className="value_imageText">Tantukosh</div>
+                <div className="value_imageText">Hemp Extract</div>
                 </div>
             </div>
             

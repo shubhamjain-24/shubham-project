@@ -2,58 +2,53 @@
     display: flex;
      display: flex;
      align-items: center;
-     height: 600px;
+     /* height: 600px; */
      background-color: white;
-}
-.GreenRason_backContainer{
-    position: relative;
+     flex-direction: column;
+     padding: 40px;
 }
 .GreenReasonMarquee{
     font-size: 3rem;
 }
-.GreenReason_frontContainer{
-    width: 60%;
+
+.GreenReason_gridContainer{
+    width: 90%;
+    display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+   gap: 20px;
+   padding: 40px 0px;
+}
+.GreenReason_gridDiv1{
     display: flex;
-    align-items: end;
-    justify-content: end;
-    z-index: 3;
-    position: absolute;
-    /* border: 1px solid red; */
-    margin-left: 100px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
-.greenreasonImage{
+.GreenREason_divText{
+    font-size: 1.5rem;
+    color: #556B2F;
+    font-style: italic;
+}
+.GreenReason_imageDiv{
     width: 300px;
-    border-radius: 10px;
+    height: 300px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E9EDD7;
+    position: relative;
 }
-.greenReasonDivtext{
-    margin-left: 30px;
-    width: 50%;
+
+.GreenReason_image{
+    width: 70%;
 }
-@media screen and (max-width: 1000px){
-    .greenReasonDivtext{
-        width: 70%;
-    }
-    .GreenReason_frontContainer{
-        width: 80%;
-    }
-}
-@media screen and (max-width: 800px){
-    .greenreasonImage{
-        width: 250px;
-    }
-    .GreenReason_frontContainer{
-        flex-direction: column;
-        width: 100%;
-        margin: 0;
-        justify-content: center;
-        align-items: center;
-    }
-    .greenReasonDivtext{
-        margin-top: 20px;
-    }
-}
-@media screen and (max-width: 500px){
-    .greenreasonImage{
+@media screen and (max-width: 550px){
+    .GreenReason_imageDiv{
         width: 200px;
+        height: 200px;
+    }
+    .GreenREason_divText{
+        font-size: 1.1rem;
     }
 }
