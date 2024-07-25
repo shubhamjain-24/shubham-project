@@ -20,7 +20,7 @@ const BlogPage = () => {
             <br />
             We all do! But at what cost to our planet?
           </h1>
-          <h6 className="BlogWriter">Ranya 04 April 2024</h6>
+          <h6 className="BlogWriter"> April 2024</h6>
           <div className="blogContent_container">
             <div className="blogpage_imageContainer">
               <img src={img1} alt="" className="BlogPage_image" />
@@ -34,9 +34,13 @@ const BlogPage = () => {
               clothing, a shift towards sustainability has emerged as a beacon
               of hope for a better future.
               <br />
+              <br />
               The fast fashion industry, fueled by consumer demand for cheap,
               disposable clothing, has become a powerhouse of environmental
-              destruction. The rise in textile consumption is alarming! Consider
+              destruction. The rise in textile consumption is alarming!
+              <br />
+              <br />
+               Consider
               this: the fashion industry is responsible for a staggering 10% of
               global carbon emissions, surpassing the emissions of all
               international flights and maritime shipping combined. These
@@ -61,15 +65,22 @@ const BlogPage = () => {
                 Add to that the use of pesticides and fertilizers that degrades
                 the soil quality with time.
               </li>
+              <br />
               From releasing 10% of microplastics into the ocean annually via
               textiles to consuming 20,000 liters of water to produce one
               kilogram of cotton the apparel industry's global emissions are
               projected to double by the decade's end, but there is hope on the
-              horizon.  We at Tantukosh are leading the charge towards a more
+              horizon. 
+              <br />
+              <br />
+
+               We at Tantukosh are leading the charge towards a more
               sustainable future, rejecting the harmful practices of fast
               fashion in favor of a slower, more mindful approach to clothing
               and lifestyle products.  At the heart of our ethos lies a
-              commitment to sustainability in every aspect of our business. Our
+              commitment to sustainability in every aspect of our business. 
+              <br />
+              Our
               flagship material hemp is a versatile and eco-friendly alternative
               to conventional fabrics, which requires significantly less water
               and fewer pesticides to grow. Not only that, but hemp fibers are
@@ -78,10 +89,15 @@ const BlogPage = () => {
               waste. But our commitment to sustainability doesn't end there. We
               also prioritize ethical manufacturing practices, ensuring that
               every person involved in the production process is treated with
-              dignity and respect. What sets our brand apart isn't merely an
+              dignity and respect.
+              <br />
+              <br />
+               What sets our brand apart isn't merely an
               array of facts and knowledge but a commitment to making a tangible
-              impact by embracing the concept of a ‘rightful lifestyle' with
-              natural and eco-friendly fibers. As we embark on this journey
+              impact by embracing the concept of a ‘rightful fashionability'.
+              
+              <br />
+              <br /> As we embark on this journey
               towards a more sustainable future, we invite you to join us. By
               choosing Tantukosh, you're not just buying clothing and lifestyle
               products—you're supporting a movement towards positive change.

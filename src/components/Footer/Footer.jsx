@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.css";
-import img1 from "../../asset/footerimage.png";
+// import img1 from "../../asset/footerimage.png";
+import img1 from "../../asset/footerlogo2.svg";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
@@ -52,6 +53,7 @@ const Footer = () => {
             </p>
             <a href="https://www.instagram.com/tantukosh.india/?igsh=eXRtc2pvaTI0dHZs">
               <div className="footerBlogButton">
+                <AiFillInstagram style={{marginRight:"5px"}} />
                 Visit our Instagram
                 <div className="footer_arrow"></div>
                 <FaArrowRightLong className="arrow_icon" />
@@ -70,7 +72,7 @@ const Footer = () => {
             <IoLogoWhatsapp className="footerIcon" />
           </div> */}
           <div className="footercopyrightText">
-            Copyright by tantukosh. All rights reserved.
+          © @tantukosh2024
           </div>
         </div>
       </div>

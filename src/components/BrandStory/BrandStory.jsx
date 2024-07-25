@@ -11,21 +11,16 @@ const BrandStory = () => {
             <img className="sB_textbackimg" src={img2} alt="" />
             <div className="bS_heading">Brand Story</div>
             <div className="bS_text">
-              Hey green warrior! <br /> <br />
-              Tantukosh is founded by two childhood best friends who shared a
-              dream – a dream of a world where fashion, lifestyle and
-              eco-responsibility walk hand in hand. This dream was born out of
-              their genuine concern for the environment and their unwavering
-              belief in the power of conscious choices and love for textiles.
+              Hey green warrior! <br /> 
+              Tantukosh was founded on a belief to create an ecosystem where fashion, lifestyle, and eco-responsibility walk hand in hand. Genuine care for the environment, unwavering faith in the impact of thoughtful choices, and a passion for textiles shaped this dream into a reality.
               <br />
-              Tantukosh is not just a clothing or a lifetsyle brand but is a way
-              of living, a soulful and sustainable life.
+              Tantukosh is not just a lifestyle brand but is a way of living, a soulful and sustainable life.
               <br />
-              “Our goal is to create awareness and build and eco-system from
-              start to end”
+              “Our goal is to create awareness and build an ecosystem from start to end. We aspire beyond mere sustainability".
               <br />
-              Together, let’s embark on a mission to create a community and
-              redefine a lifestyle that benefits the mankind and the planet.
+              Our vision extends to creating a world where fashion nurtures, rather than depletes, our planet. We are dedicated to making each step of our production process as green as the fields that grow our materials.
+              <br />
+              Together, let’s embark on a mission to create a community and redefine a lifestyle that benefits humankind and the planet.
             </div>
           </div>
           <div className="bS_imgContainer">

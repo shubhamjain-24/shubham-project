@@ -19,7 +19,7 @@ const BlogPage3 = () => {
             <br />
             Tips for Building a Sustainable Wardrobe
           </h1>
-          <h6 className="BlogWriter">Ranya 04 April 2024</h6>
+          <h6 className="BlogWriter">April 2024</h6>
           <div className="blogContent_container">
             <div className="blogpage_imageContainer">
               <img src={img1} alt="" className="BlogPage_image" />

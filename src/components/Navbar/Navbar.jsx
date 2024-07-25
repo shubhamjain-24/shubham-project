@@ -1,5 +1,6 @@
 import React from "react";
-import logo from "../../asset/logo.png";
+// import logo from "../../asset/logo.png";
+import logo from "../../asset/logo2.svg";
 import { Link, NavLink } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { Drawer, Typography, IconButton } from "@material-tailwind/react";
@@ -22,7 +23,7 @@ const Navbar = () => {
             <NavLink to="/shop">
             <li className="cursor-pointer hover:text-gray-600">Shop</li>
             </NavLink>
-            <Link to={"/"} className="w-48 h-full cursor-pointer">
+            <Link to={"/"} className="w-40 h-full cursor-pointer">
               <img src={logo} alt="logo" loading="lazy" />
             </Link>
             <NavLink to="/blog">

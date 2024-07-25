@@ -25,6 +25,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 95%;
+}
+.Footer_image{
+    width: 80%;
 }
 .logo_head{
     color: #f1f1e8;

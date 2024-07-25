@@ -13,7 +13,7 @@ const Values = () => {
                 Fabric of our Values
                 </div>
                 <div className="values_subText">
-                We believe that every thread has the potential to make a difference. That's why we are committed to using 100% plant-based fabric, with Hemp as our flagship material, along with various natural fibers like bamboo, lyocell, banana, etc
+                We believe that every thread has the potential to make a difference! That's why we are committed to using 100% plant-based fabrics. Hemp is our flagship material, but we also love creating and working with other natural fibers like bamboo, lyocell, banana, etc.
                 </div>
             </div>
 
@@ -23,19 +23,19 @@ const Values = () => {
                 {/* image */}
                 <div className="value_imageDiv">
                 <img src={img2} alt="" className="values_image" />
-                <div className="value_imageText">Banana Extract</div>
+                <div className="value_imageText">Banana</div>
                 </div>
 
                 {/* image */}
                 <div className="value_imageDiv">
                 <img src={img1} alt="" className="values_image" />
-                <div className="value_imageText">Bamboo Extract</div>
+                <div className="value_imageText">Bamboo</div>
                 </div>
 
                 {/* image */}
                 <div className="value_imageDiv">
                 <img src={img3} alt="" className="values_image" />
-                <div className="value_imageText">Hemp Extract</div>
+                <div className="value_imageText">Hemp</div>
                 </div>
             </div>
             

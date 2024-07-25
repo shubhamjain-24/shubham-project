@@ -24,8 +24,7 @@ const BlogSection = () => {
               </div>
               <div className="BlogSection_TextDiv">
                 <div className="BlogSectionText_head">
-                  Who doesn’t love to dress up and turn heads? We all do! But at
-                  what cost to our planet?
+                  Embracing slow fashion: Tantukosh's Sustainable Journey Towards Change 
                 </div>
                 <div className="BlogSectionText_sub">
                   In the bustling landscape of modern fashion, where trends come

@@ -20,6 +20,7 @@
 }
 .Learnmore_text{
     width: 50%;
+    text-align: justify;
 }
 .LearnMoreButton{
     padding: 10px 40px 10px 40px;

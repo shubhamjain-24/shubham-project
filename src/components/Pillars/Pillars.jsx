@@ -1,7 +1,7 @@
 import React from "react";
 import "./Pillars.css";
-import img1 from "../../asset/pillar11.png";
-import img2 from "../../asset/pillar22.png";
+import img1 from "../../asset/pillar111.png";
+import img2 from "../../asset/pillar222.png";
 import img3 from "../../asset/pillar33.png";
 import img4 from "../../asset/pillar44.png";
 
@@ -19,7 +19,7 @@ const Pillars = () => {
             <div className="pillarDiv1">
               <img src={img1} alt="" className="pillarImage" />
             </div>
-            <div className="pillars_card_text">Global Shipping</div>
+            <div className="pillars_card_text">Small Batches</div>
           </div>
          
           {/* div2 */}
@@ -27,7 +27,7 @@ const Pillars = () => {
             <div className="pillarDiv1">
               <img src={img2} alt="" className="pillarImage" />
             </div>
-            <div className="pillars_card_text">Transparent supply chain</div>
+            <div className="pillars_card_text">Natural Fibers</div>
           </div>
 
            {/* div3 */}

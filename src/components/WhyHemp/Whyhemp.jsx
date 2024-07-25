@@ -27,19 +27,19 @@ const Whyhemp = () => {
               <div className="why_div2_listItem">
                 <div className="why_div2_item">
                   <img src={img1} alt="" className="why_div2_image" />
-                  Naturally UV - resistant
+                    UV - resistant
                 </div>
               </div>
               <div className="why_div2_listItem">
                 <div className="why_div2_item">
                   <img src={img1} alt="" className="why_div2_image" />
-                  Strongest natural fiber
+                  Durable
                 </div>
               </div>
               <div className="why_div2_listItem">
                 <div className="why_div2_item">
                   <img src={img1} alt="" className="why_div2_image" />
-                  Fight climate change
+                  Climate - friendly
                 </div>
               </div>
             </div>

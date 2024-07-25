@@ -1,8 +1,10 @@
 import React from "react";
 import "./Categories.css";
-import img2 from "../../asset/cat11.jpg";
-import img1 from "../../asset/cat2111.jpg";
-import img3 from "../../asset/cat333.png";
+import img2 from "../../asset/model2.jpeg";
+import img1 from "../../asset/model1.jpeg";
+import img3 from "../../asset/cat3333.png";
+import ladyimg from '../../asset/ladyProd1.jpg'
+import menimg from '../../asset/mensProd.jpg'
 
 const Categories = () => {
   return (
@@ -20,7 +22,7 @@ const Categories = () => {
           <div className="categories_cardDiv">
             <div className="categories_image_div">
                 <div className="categories_image_shadow">
-                Discover attires, that embody strength, grace, and sustainable elegance for women.
+                Discover attires that embody strength, grace, and sustainable elegance for women.
                 </div>
               <img src={img1} alt="" className="categories_card_image" />
             </div>

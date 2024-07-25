@@ -11,18 +11,17 @@ const Blogs = () => {
   return (
     <>
       <div className="Blogs_mainContainer">
-        <div className="Blogs_HeadContainer">
+        {/* <div className="Blogs_HeadContainer">
           <h1 className="Blogs_heading">Green Journal</h1>
           <h3 className="Blogs_subText">
             Your guide to sustainable fashion and eco-conscious living.
           </h3>
-        </div>
+        </div> */}
         <div className="Blogs_gridContainer">
           <div className="Blogs_cardDiv">
             <img src={img1} alt="" className="blogs_image" />
             <h1 className="blogs_tittle">
-              Who doesn’t love to dress up and turn heads? We all do! But at
-              what cost to our planet?
+            Embracing slow fashion: Tantukosh's Sustainable Journey Towards Change
             </h1>
             <p className="blogs_description">
               In the bustling landscape of modern fashion, where trends come and

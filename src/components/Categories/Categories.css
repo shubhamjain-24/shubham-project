@@ -25,6 +25,16 @@
     font-size: 1.6rem;
     margin-top: 0px;
 }
+.ContactUs_subtext_logos{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  /* border: 1px solid red; */
+  margin-top: 10px;
+  font-size: 20px;
+  color: #556B2F;
+  /* cursor: pointer; */
+}
 .categories_flexContainer{
     width: 75%;
      display: grid;
