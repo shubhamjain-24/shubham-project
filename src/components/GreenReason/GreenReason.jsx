@@ -14,7 +14,7 @@ const GreenReason = () => {
        <div className="GreenReason_gridContainer">
         <div className="GreenReason_gridDiv1">
           <div className="GreenREason_divText">
-          "You are not just making a purchase; you are making a statement. Which means you care about the world we live in"
+          "You are not just making a purchase; you are making a statement which means you care about the world we live in"
           </div>
         </div>
         <div className="GreenReason_gridDiv1">

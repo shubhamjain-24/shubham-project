@@ -18,7 +18,7 @@ const BrandStory = () => {
               <br />
               “Our goal is to create awareness and build an ecosystem from start to end. We aspire beyond mere sustainability".
               <br />
-              Our vision extends to creating a world where fashion nurtures, rather than depletes, our planet. We are dedicated to making each step of our production process as green as the fields that grow our materials.
+              Our vision extends to creating a world where fashion nurtures, rather than depletes our planet. We are dedicated to making each step of our production process as green as the fields that grow our materials.
               <br />
               Together, let’s embark on a mission to create a community and redefine a lifestyle that benefits humankind and the planet.
             </div>

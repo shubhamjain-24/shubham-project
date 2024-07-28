@@ -1,10 +1,10 @@
 import React from "react";
 import "./Categories.css";
-import img2 from "../../asset/model2.jpeg";
-import img1 from "../../asset/model1.jpeg";
+// import img2 from "../../asset/model2.jpeg";
+import img2 from "../../asset/mensprod.jpeg";
 import img3 from "../../asset/cat3333.png";
-import ladyimg from '../../asset/ladyProd1.jpg'
-import menimg from '../../asset/mensProd.jpg'
+// import img1 from "../../asset/model1.jpeg";
+import img1 from "../../asset/girlprod.jpeg";
 
 const Categories = () => {
   return (

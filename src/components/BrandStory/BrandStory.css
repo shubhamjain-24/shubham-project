@@ -62,6 +62,9 @@
     width: 100%;
     /* border: 1px solid red; */
   }
+  .sB_textbackimg{
+    /* border: 1px solid red; */
+  }
   .bS_image {
     width: 100%;
   }
@@ -76,9 +79,10 @@
     padding: 10px;
     padding-top: 30px;
     padding-bottom: 30px;
+    /* border: 1px solid red; */
   }
   .brandStory_flexContainer {
-    /* border: 1px solid red; */
     width: 100%;
+    /* margin-top: 50; */
   }
 }

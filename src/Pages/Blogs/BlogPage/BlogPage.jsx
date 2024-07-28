@@ -16,9 +16,7 @@ const BlogPage = () => {
       <div className="BlogPage_mainContainer">
         <div className="Blogpage_subContainer">
           <h1 className="BlogTittle">
-            Who doesn’t love to dress up and turn heads?
-            <br />
-            We all do! But at what cost to our planet?
+          Embracing slow fashion: <br /> Tantukosh's Sustainable Journey Towards Change
           </h1>
           <h6 className="BlogWriter"> April 2024</h6>
           <div className="blogContent_container">

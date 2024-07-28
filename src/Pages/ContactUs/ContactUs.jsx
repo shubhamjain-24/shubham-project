@@ -26,8 +26,9 @@ const ContactUs = () => {
             <p className="ContactUs_head">For general enquiries or feedback:</p>
             <a href="mailto:tantu.india2230@gmail.com" className="ContactUs_subtext">tantu.india2230@gmail.com</a>
 
-            <div style={{fontStyle:"italic",width:"50%",marginTop:"30px"}} className="ContactUs_subtext quote">
-            "Join our journey towards a greener world! Follow us on social media for the latest updates and exclusive insights into our sustainable efforts"
+            <div style={{fontStyle:"italic",marginTop:"30px"}} className="ContactUs_subtext quote">
+            Join our journey towards a greener world!
+            <br /> Follow us on social media for the latest updates and exclusive insights into our sustainable efforts
             </div>
             <div className="ContactUs_subtext_logos">
               <a href="https://www.instagram.com/tantukosh.india/?igsh=eXRtc2pvaTI0dHZs">

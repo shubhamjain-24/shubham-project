@@ -24,7 +24,7 @@ const BlogSection = () => {
               </div>
               <div className="BlogSection_TextDiv">
                 <div className="BlogSectionText_head">
-                  Embracing slow fashion: Tantukosh's Sustainable Journey Towards Change 
+                  Embracing Slow Fashion: Tantukosh's Sustainable Journey Towards Change 
                 </div>
                 <div className="BlogSectionText_sub">
                   In the bustling landscape of modern fashion, where trends come

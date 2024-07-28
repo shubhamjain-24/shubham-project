@@ -29,6 +29,7 @@
 }
 .Footer_image{
     width: 80%;
+    margin-left: 10px;
 }
 .logo_head{
     color: #f1f1e8;
@@ -141,13 +142,13 @@
         width: 80%;
     }
     .logo_head{
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
     .footer_div2{
         
     }
     .footer_list{
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         font-weight: 300;
         text-align: center;
     }

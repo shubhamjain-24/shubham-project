@@ -130,4 +130,9 @@
    .categories_subText{
     font-size: 1.3rem;
    }
+   .ContactUs_subtext_logos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
   }
