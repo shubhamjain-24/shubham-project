@@ -10,18 +10,17 @@ const Navbar = () => {
   const [openRight, setOpenRight] = React.useState(false);
   const openDrawerRight = () => setOpenRight(true);
   const closeDrawerRight = () => setOpenRight(false);
+
   return (
     <>
       <div className="min-h-32 justify-center lg:flex items-center hidden md:flex xl:flex Navbar_mainContainer">
-        <div className="lg:max-w-[900px] md:max-w-[700px]  h-full w-full">
+        <div className="lg:max-w-[900px] md:max-w-[700px] h-full w-full">
           <ul className="flex justify-between items-center lg:text-2xl md:text-2xl text-gray-900 font-thin Navbar_itemsContainer">
             <NavLink to="/about">
-              <li className="cursor- &nbsp;pointer hover:text-gray-600">
-                Our Story
-              </li>
+              <li className="cursor-pointer hover:text-gray-600">Our Story</li>
             </NavLink>
             <NavLink to="/shop">
-            <li className="cursor-pointer hover:text-gray-600">Shop</li>
+              <li className="cursor-pointer hover:text-gray-600">Shop</li>
             </NavLink>
             <Link to={"/"} className="w-40 h-full cursor-pointer">
               <img src={logo} alt="logo" loading="lazy" />
@@ -30,21 +29,17 @@ const Navbar = () => {
               <li className="cursor-pointer hover:text-gray-600">Eco Tales</li>
             </NavLink>
             <NavLink to="/contactus">
-            <li className="cursor-pointer hover:text-gray-600">Contact Us</li>
+              <li className="cursor-pointer hover:text-gray-600">Contact Us</li>
             </NavLink>
           </ul>
         </div>
       </div>
 
-      <div className="lg:hidden md:hidden xl:hidden flex min-h-16  justify-between items-center p-5 pt-0 pb-0">
-        <div>
-          <Link to="/">
-            <img src={logo} alt="" className="w-28 h-16 object-contain" />
-          </Link>
-        </div>
-        <div>
-          <GiHamburgerMenu className="text-xl" onClick={openDrawerRight} />
-        </div>
+      <div className="lg:hidden md:hidden xl:hidden flex min-h-16 justify-between items-center p-5 pt-0 pb-0 relative">
+        <Link to="/" className="navbar-logo">
+          <img src={logo} alt="" className="w-28 h-16 object-contain" />
+        </Link>
+        <GiHamburgerMenu className="text-xl hamburger-icon" onClick={openDrawerRight} />
 
         <Drawer
           placement="right"
@@ -53,7 +48,7 @@ const Navbar = () => {
           className="p-4"
         >
           <div className="mb-6 flex items-center justify-between">
-            <Link to={"/"}>
+            <Link to={"/"} onClick={closeDrawerRight}>
               <img src={logo} alt="logo" className="w-28 h-16 object-contain" />
             </Link>
             <IconButton
@@ -83,33 +78,25 @@ const Navbar = () => {
               color="gray"
               className="mb-8 pr-4 font-thin text-xl cursor-pointer"
             >
-              <NavLink to="/about">Our Story</NavLink>
+              <NavLink to="/about" onClick={closeDrawerRight}>Our Story</NavLink>
             </Typography>
             <Typography
               color="gray"
               className="mb-8 pr-4 font-thin text-xl cursor-pointer"
             >
-              <NavLink to="/shop">
-              Shop
-              </NavLink>
+              <NavLink to="/shop" onClick={closeDrawerRight}>Shop</NavLink>
             </Typography>
             <Typography
               color="gray"
               className="mb-8 pr-4 font-thin text-xl cursor-pointer"
             >
-              <NavLink to="/blog">
-
-              Eco Tales
-              </NavLink>
+              <NavLink to="/blog" onClick={closeDrawerRight}>Eco Tales</NavLink>
             </Typography>
             <Typography
               color="gray"
               className="mb-8 pr-4 font-thin text-xl cursor-pointer"
             >
-              <NavLink to="/contactus">
-
-              Contact Us
-              </NavLink>
+              <NavLink to="/contactus" onClick={closeDrawerRight}>Contact Us</NavLink>
             </Typography>
           </div>
         </Drawer>

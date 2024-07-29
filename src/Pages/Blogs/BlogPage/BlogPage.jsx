@@ -25,6 +25,16 @@ const BlogPage = () => {
             </div>
 
             <div className="BlogPage_description">
+              <div className="blogPage_quote">
+              Who dosen't love to dress up and turn heads?
+              <br />
+              We all do! But at what cost to our planet?
+              <br />
+              {/* <br /> */}
+              </div>
+             
+
+
               In the bustling landscape of modern fashion, where trends come and
               go in the blink of an eye, one thing remains constant: the
               undeniable toll that fast fashion takes on our planet. As
