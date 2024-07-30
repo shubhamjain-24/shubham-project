@@ -45,7 +45,7 @@ const Categories = () => {
             <div className="categories_cardText_container">
               <div className="categories_card_head">Men</div>
               <div className="categories_card_subtext">
-              Style that aligns with sophistication and sustainability
+              Style that aligns with sophistication
               </div>
             </div>
           </div>
